@@ -7,9 +7,6 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-/**
- * Created by antonio on 01/03/17.
- */
 @Repository
 public interface StudentRepository extends JpaRepository<Student, Integer> {
 
